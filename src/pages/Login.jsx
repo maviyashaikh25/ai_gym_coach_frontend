@@ -139,20 +139,6 @@ export default function Login({ onLoginSuccess }) {
               </div>
             </div>
 
-            <div className="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant">
-              <label className="flex items-center gap-sm cursor-pointer hover:text-on-surface transition-colors">
-                <input
-                  className="w-4 h-4 rounded border-white/20 bg-surface-container-low text-primary focus:ring-primary/20"
-                  type="checkbox"
-                  defaultChecked
-                />
-                Stay linked
-              </label>
-              <a className="hover:text-secondary transition-colors" href="#" onClick={(e) => e.preventDefault()}>
-                Forgot Key?
-              </a>
-            </div>
-
             <button
               className="w-full bg-primary text-on-primary font-headline-md text-headline-md py-4 rounded-xl flex items-center justify-center gap-sm neon-glow-lime hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 disabled:opacity-50 disabled:cursor-wait"
               type="submit"
